@@ -159,7 +159,7 @@ const Home = () => {
           </div>
 
           <div className="lg:max-w-2xl">
-            <p className="text-[18px] md:text-[25px]">
+            <p className="text-[18px] md:text-[25px] text-black">
               At Holy Cross, foster a dynamic learning environment where every
               child&apos;s potential is nurtured. Our innovative curriculum, led
               by passionate educators, encourages curiosity, critical thinking,
