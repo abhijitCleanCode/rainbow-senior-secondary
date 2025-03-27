@@ -16,7 +16,7 @@ import Footer from "../components/layout/Footer";
 const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Holy Cross - Contact Us";
+    document.title = "Rainbow Sr Secondary School - Contact Us";
   }, []);
 
   // Form state

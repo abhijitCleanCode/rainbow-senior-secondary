@@ -17,7 +17,7 @@ const fadeIn = {
 const Academics = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Holy Cross - Academics";
+    document.title = "Rainbow Sr Secondary School - Academics";
   }, []);
 
   const gradeLevel = [
@@ -45,15 +45,19 @@ const Academics = () => {
       <section className="sm:px-16 px-6 sm:py-16 py-10">
         <div className="text-center">
           <h1 className="text-[25px] md:text-[35px] h1 text-black md:mx-auto pb-4 md:p-0">
-            Academics at <span className="text-brand">Holy Cross </span>
+            Academics at{" "}
+            <span className="text-brand">Rainbow Sr Secondary School </span>
             School
           </h1>
 
           <p className="text-[17px] h-52  lg:text-[25px] font-[400] text-black-600 md:mt-4 lg:max-w-6xl lg:mx-auto">
-            At <span className="text-brand font-medium">Holy Cross</span>, we
-            are committed to delivering an engaging and well-rounded academic
-            experience that equips students with the knowledge, skills, and
-            confidence to excel. Our curriculum blends traditional academic
+            At{" "}
+            <span className="text-brand font-medium">
+              Rainbow Sr Secondary School
+            </span>
+            , we are committed to delivering an engaging and well-rounded
+            academic experience that equips students with the knowledge, skills,
+            and confidence to excel. Our curriculum blends traditional academic
             rigor with innovative approaches, fostering critical thinking,
             creativity, and a lifelong love of learning.
           </p>

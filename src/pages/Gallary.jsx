@@ -10,7 +10,7 @@ import Footer from "../components/layout/Footer";
 const Gallery = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Holy Cross - Gallery";
+    document.title = "Rainbow Sr Secondary School - Gallery";
   }, []);
 
   // Gallery categories
@@ -26,39 +26,25 @@ const Gallery = () => {
   // Gallery images (placeholder data)
 
   const galleryImages = [
-    { id: 1, src: "/IMG-20250309-WA0003.jpg", category: ["all", "events"] },
-    { id: 2, src: "/IMG-20250309-WA0005.jpg", category: ["all", "sports"] },
-    { id: 3, src: "/IMG-20250309-WA0006.jpg", category: ["all", "cultural"] },
-    { id: 4, src: "/IMG-20250310-WA0005.jpg", category: ["all", "academic"] },
-    { id: 6, src: "/IMG-20250310-WA0007.jpg", category: ["all", "events"] },
-    { id: 7, src: "/IMG-20250310-WA0008.jpg", category: ["all", "sports"] },
-    { id: 8, src: "/IMG-20250310-WA0009.jpg", category: ["all", "cultural"] },
-    { id: 9, src: "/IMG-20250310-WA0010.jpg", category: ["all", "academic"] },
-    { id: 11, src: "/IMG-20250310-WA0014.jpg", category: ["all", "events"] },
-    { id: 12, src: "/IMG-20250310-WA0015.jpg", category: ["all", "sports"] },
-    { id: 13, src: "/IMG-20250310-WA0016.jpg", category: ["all", "cultural"] },
-    { id: 14, src: "/IMG-20250310-WA0017.jpg", category: ["all", "academic"] },
-    { id: 16, src: "/IMG-20250310-WA0019.jpg", category: ["all", "events"] },
-    { id: 17, src: "/IMG-20250310-WA0020.jpg", category: ["all", "sports"] },
-    { id: 18, src: "/IMG-20250310-WA0021.jpg", category: ["all", "cultural"] },
-    { id: 19, src: "/IMG-20250310-WA0022.jpg", category: ["all", "academic"] },
-    { id: 21, src: "/IMG-20250310-WA0024.jpg", category: ["all", "events"] },
-    { id: 22, src: "/IMG-20250310-WA0025.jpg", category: ["all", "sports"] },
-    { id: 23, src: "/IMG-20250310-WA0026.jpg", category: ["all", "cultural"] },
-    { id: 24, src: "/IMG-20250310-WA0027.jpg", category: ["all", "academic"] },
-    { id: 26, src: "/IMG-20250310-WA0029.jpg", category: ["all", "events"] },
-    { id: 27, src: "/IMG-20250310-WA0032.jpg", category: ["all", "sports"] },
-    { id: 28, src: "/IMG-20250310-WA0033.jpg", category: ["all", "cultural"] },
-    { id: 29, src: "/IMG-20250310-WA0037.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0041.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0042.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0043.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0044.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0046.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0047.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0048.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0049.jpg", category: ["all", "academic"] },
-    { id: 29, src: "/IMG-20250310-WA0052.jpg", category: ["all", "academic"] },
+    { id: 1, src: "/img1.JPG", category: ["all", "events"] },
+    { id: 2, src: "/img2.JPG", category: ["all", "sports"] },
+    { id: 3, src: "/img3.JPG", category: ["all", "cultural"] },
+    { id: 4, src: "/img4.JPG", category: ["all", "academic"] },
+    { id: 6, src: "/img5.JPG", category: ["all", "events"] },
+    { id: 7, src: "/img6.JPG", category: ["all", "sports"] },
+    { id: 8, src: "/img7.JPG", category: ["all", "cultural"] },
+    { id: 9, src: "/img8.JPG", category: ["all", "academic"] },
+    { id: 11, src: "/img9.JPG", category: ["all", "events"] },
+    { id: 12, src: "/img10.JPG", category: ["all", "sports"] },
+    { id: 13, src: "/img11.JPG", category: ["all", "cultural"] },
+    { id: 14, src: "/img16.JPG", category: ["all", "academic"] },
+    { id: 16, src: "/img17.JPG", category: ["all", "events"] },
+    { id: 17, src: "/img18.JPG", category: ["all", "sports"] },
+    { id: 18, src: "/img19.JPG", category: ["all", "cultural"] },
+    { id: 19, src: "/img20.JPG", category: ["all", "academic"] },
+    { id: 21, src: "/img21.JPG", category: ["all", "events"] },
+    { id: 22, src: "/img22.JPG", category: ["all", "sports"] },
+    { id: 23, src: "/img23.JPG", category: ["all", "cultural"] },
   ];
   const [activeCategory, setActiveCategory] = useState("all");
   const [filteredImages, setFilteredImages] = useState(galleryImages);

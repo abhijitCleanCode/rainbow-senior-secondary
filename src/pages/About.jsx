@@ -14,9 +14,12 @@ const About = () => {
           <h2 className="h2 text-brand-100">Mission</h2>
 
           <p className="text-black text-[17px] md:text-[22px] leading-[30px]">
-            At <span className="text-brand font-medium">Holy Cross</span>, we
-            provide a nurturing environment and comprehensive facilities that
-            empower students to excel both academically and personally. Our
+            At{" "}
+            <span className="text-brand font-medium">
+              Rainbow Sr Secondary School
+            </span>
+            , we provide a nurturing environment and comprehensive facilities
+            that empower students to excel both academically and personally. Our
             holistic approach prepares students to navigate life’s challenges
             with confidence, compassion, and resilience.
           </p>

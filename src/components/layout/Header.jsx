@@ -35,7 +35,9 @@ const Header = () => {
                 className="h-16 mr-2"
               />
               <div className="hidden md:block">
-                <h1 className="text-xl font-bold text-danger">Holy Cross</h1>
+                <h1 className="text-xl font-bold text-danger">
+                  Rainbow Sr Secondary School
+                </h1>
               </div>
             </a>
           </div>

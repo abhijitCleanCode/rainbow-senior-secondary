@@ -11,9 +11,8 @@ import "swiper/swiper-bundle.css";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import Hero from "../components/sections/Hero";
-import { img1, img2, img3, img4 } from "../assets";
 
-const images = [img1, img2, img3, img4];
+const images = ["/img1.JPG", "/img2.JPG", "/img3.JPG", "/img4.JPG"];
 
 const ImageSlider = () => {
   return (
@@ -40,7 +39,7 @@ const ImageSlider = () => {
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Holy Cross - Home";
+    document.title = "Rainbow Sr Secondary School - Home";
   }, []);
 
   // Animation variants
@@ -94,14 +93,15 @@ const Home = () => {
                 <h1 className="h1 text-primaryBlue-600">Introduction</h1>
               </div>
               <p className="text-[17px] lg:text-[25px] font-normal leading-[36px] text-black-300 mb-[1.5rem]">
-                At Holy Cross, foster a dynamic learning environment where every
-                child's potential is nurtured. Our innovative curriculum, led by
-                passionate educators, encourages curiosity, critical thinking,
-                and collaboration. We focus on both academic and personal
-                growth, developing students into compassionate, confident, and
-                skilled individuals. Through enriching programs and supportive
-                guidance, we prepare our students to tackle future challenges
-                with creativity, resilience, and integrity.
+                At Rainbow Sr Secondary School, foster a dynamic learning
+                environment where every child's potential is nurtured. Our
+                innovative curriculum, led by passionate educators, encourages
+                curiosity, critical thinking, and collaboration. We focus on
+                both academic and personal growth, developing students into
+                compassionate, confident, and skilled individuals. Through
+                enriching programs and supportive guidance, we prepare our
+                students to tackle future challenges with creativity,
+                resilience, and integrity.
               </p>
               <a
                 href="/about"
@@ -160,14 +160,15 @@ const Home = () => {
 
           <div className="lg:max-w-2xl">
             <p className="text-[18px] md:text-[25px] text-black">
-              At Holy Cross, foster a dynamic learning environment where every
-              child&apos;s potential is nurtured. Our innovative curriculum, led
-              by passionate educators, encourages curiosity, critical thinking,
-              and collaboration. We focus on both academic and personal growth,
-              developing students into compassionate, confident, and skilled
-              individuals. Through enriching programs and supportive guidance,
-              we prepare our students to tackle future challenges with
-              creativity, resilience, and integrity.
+              At Rainbow Sr Secondary School, foster a dynamic learning
+              environment where every child&apos;s potential is nurtured. Our
+              innovative curriculum, led by passionate educators, encourages
+              curiosity, critical thinking, and collaboration. We focus on both
+              academic and personal growth, developing students into
+              compassionate, confident, and skilled individuals. Through
+              enriching programs and supportive guidance, we prepare our
+              students to tackle future challenges with creativity, resilience,
+              and integrity.
             </p>
           </div>
         </div>
@@ -196,8 +197,11 @@ const Home = () => {
         <h2 className="h2 text-brand-100">Why Choose Us?</h2>
 
         <p className="text-black text-[17px] md:text-[22px] leading-[30px]">
-          At <span className="text-brand font-medium">Holy Cross</span>, we
-          provide a nurturing environment and comprehensive facilities that
+          At{" "}
+          <span className="text-brand font-medium">
+            Rainbow Sr Secondary School
+          </span>
+          , we provide a nurturing environment and comprehensive facilities that
           empower students to excel both academically and personally. Our
           holistic approach prepares students to navigate life’s challenges with
           confidence, compassion, and resilience.

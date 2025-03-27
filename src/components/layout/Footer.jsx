@@ -22,7 +22,7 @@ const Footer = () => {
               alt="School Name"
               className="h-16 mb-4 rounded-full"
             />
-            <h3 className="h3 mb-4">Holy Cross</h3>
+            <h3 className="h3 mb-4">Rainbow Sr Secondary School</h3>
             <p className="mb-4 text-gray-300">
               Empowering young minds through holistic education.
             </p>
@@ -121,7 +121,8 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Holy Cross. All Rights Reserved.
+            © {new Date().getFullYear()} Rainbow Sr Secondary School. All Rights
+            Reserved.
           </p>
         </div>
       </div>
