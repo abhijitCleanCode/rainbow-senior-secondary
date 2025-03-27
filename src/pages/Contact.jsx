@@ -97,17 +97,17 @@ const Contact = () => {
     {
       icon: <MapPin size={24} className="text-brand" />,
       title: "Our Location",
-      details: ["Lala Bypass, near Sarbanandapur Police Outpost", "Hailakandi"],
+      details: ["Jamira", "Part-III", "Hailakandi"],
     },
     {
       icon: <Phone size={24} className="text-brand" />,
       title: "Call Us",
-      details: ["9435197068", "6003679472"],
+      details: ["6901522862", "8822031202"],
     },
     {
       icon: <Mail size={24} className="text-brand" />,
       title: "Email Us",
-      details: ["holycrossschoollala@gmail.com"],
+      details: ["schoolemail@gmail.com"],
     },
     {
       icon: <Clock size={24} className="text-brand" />,

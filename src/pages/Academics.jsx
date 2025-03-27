@@ -36,6 +36,11 @@ const Academics = () => {
       description:
         "A hands-on approach to learning that emphasizes critical thinking, teamwork, and the development of personal responsibility.",
     },
+    {
+      name: "Secondary (Class 8 to 9)",
+      description:
+        "An engaging, experiential learning method that fosters problem-solving skills, collaboration, and self-directed growth.",
+    },
   ];
 
   return (
@@ -105,11 +110,11 @@ const Academics = () => {
               Learning Environment
             </h2>
             <p className="w-auto text-black-700 text-[17px] md:text-[25px]  font-[400] p-4 sm:pt-4 sm:pl-16 sm:pr-4 sm:pb-4 ">
-              AstraGroove embraces a student-centered approach that adapts to
-              different learning styles. Our modern classrooms and facilities
-              are equipped with the latest technology to enhance interactive
-              learning. Small class sizes allow for personalized attention and
-              foster strong student-teacher connections.
+              Rainbow Sr Secondary School embraces a student-centered approach
+              that adapts to different learning styles. Our modern classrooms
+              and facilities are equipped with the latest technology to enhance
+              interactive learning. Small class sizes allow for personalized
+              attention and foster strong student-teacher connections.
             </p>
           </div>
           {/* <div className="w-auto sm:w-[1512px] sm:h-auto">

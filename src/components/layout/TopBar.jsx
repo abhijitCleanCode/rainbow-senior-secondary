@@ -7,18 +7,18 @@ const TopBar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex space-x-4 text-sm">
           <a
-            href="tel:9435197068"
+            href="tel:6901522862"
             className="flex items-center hover:text-blue-200"
           >
             <Phone size={14} className="mr-1" />
-            <span>9435197068</span>
+            <span>6901522862</span>
           </a>
           <a
-            href="holycrossschoollala@gmail.com"
+            href="tel:8822031202"
             className="flex items-center hover:text-blue-200"
           >
-            <Mail size={14} className="mr-1" />
-            <span>holycrossschoollala@gmail.com</span>
+            <Phone size={14} className="mr-1" />
+            <span>8822031202</span>
           </a>
         </div>
         <div className="flex space-x-4 text-sm">

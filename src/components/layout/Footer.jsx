@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <img
               src={school_logo_holy_cross}
-              alt="School Name"
+              alt="Rainbow Sr Secondary School"
               className="h-16 mb-4 rounded-full"
             />
             <h3 className="h3 mb-4">Rainbow Sr Secondary School</h3>
@@ -82,15 +82,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 flex-shrink-0" />
-                <span>Lala Bypass, near Sarbanandapur Police Outpost</span>
+                <span>Jamira Part-III, Hailakandi Assam</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 flex-shrink-0" />
-                <span>9435197068 / 6003679472</span>
+                <span>6901522862 / 8822031202</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 flex-shrink-0" />
-                <span>info@choolname.edu</span>
+                <span>info@schoolname.edu</span>
               </li>
             </ul>
           </div>

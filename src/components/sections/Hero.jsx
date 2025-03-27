@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Hero Image */}
       <div className="absolute inset-0">
         <img
-          src="/IMG-20250309-WA0003.jpg"
+          src="/img11.JPG"
           alt="School Campus"
           className="w-full h-full object-cover"
         />
@@ -25,9 +25,9 @@ const Hero = () => {
             Empowering Minds, Inspiring Futures
           </h1>
           <p className="text-lg md:text-xl mb-8">
-            School Name offers a holistic education that nurtures academic
-            excellence, cultural values, and personal growth for the leaders of
-            tomorrow.
+            Rainbow Sr Secondary School offers a holistic education that
+            nurtures academic excellence, cultural values, and personal growth
+            for the leaders of tomorrow.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a

@@ -37,10 +37,10 @@ const About = () => {
               <h2 className="h2 mb-1 text-brand">Vision and Values</h2>
               <div className="w-20 h-1 bg-yellow-600 mb-6"></div>
               <p className="text-gray-700 mb-4">
-                Established in 1970, School Name has been a beacon of
-                educational excellence for over five decades. Our institution is
-                built on the foundation of traditional values and modern
-                pedagogy, creating an environment where students flourish
+                Established in 1970, Rainbow Sr Secondary School has been a
+                beacon of educational excellence for over five decades. Our
+                institution is built on the foundation of traditional values and
+                modern pedagogy, creating an environment where students flourish
                 academically, personally, and socially.
               </p>
               <p className="text-gray-700 mb-6">
@@ -66,13 +66,15 @@ const About = () => {
             >
               <div className="relative">
                 <img
-                  src="/IMG-20250309-WA0003.jpg"
-                  alt="School Name Building"
+                  src="/img10.JPG"
+                  alt="Rainbow Sr Secondary School Building"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
                 <div className="absolute -bottom-8 -left-8 bg-brand-100 p-4 rounded-lg shadow-lg hidden md:block">
                   <div className="text-white text-center">
-                    <div className="text-4xl font-bold">Mr. Nikolas</div>
+                    <div className="text-4xl font-bold">
+                      Delivering Excellence
+                    </div>
                   </div>
                 </div>
               </div>

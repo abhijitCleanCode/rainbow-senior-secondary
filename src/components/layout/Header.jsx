@@ -31,7 +31,7 @@ const Header = () => {
             <a href="/" className="flex items-center">
               <img
                 src={school_logo_holy_cross}
-                alt="School Name Logo"
+                alt="Rainbow Sr Secondary School Logo"
                 className="h-16 mr-2"
               />
               <div className="hidden md:block">

@@ -120,8 +120,8 @@ const Home = () => {
             >
               <div className="relative">
                 <img
-                  src="/IMG-20250309-WA0003.jpg"
-                  alt="School Name Building"
+                  src="/img10.JPG"
+                  alt="Rainbow Sr Secondary School Building"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
                 <div className="absolute -bottom-8 -left-8 bg-brand-100 p-4 rounded-lg shadow-lg hidden md:block">
@@ -152,7 +152,7 @@ const Home = () => {
         <div className="flex flex-wrap gap-16 items-center justify-center mx-auto w-[90%] md:w-full">
           <div className="border-8 rounded-md border-brand w-[90%] h-[90%] lg:w-[411px] lg:h-[396px]">
             <img
-              src="/IMG-20250309-WA0003.jpg"
+              src="/img23.JPG"
               alt="Principal Desk"
               className="w-full h-full object-cover"
             />

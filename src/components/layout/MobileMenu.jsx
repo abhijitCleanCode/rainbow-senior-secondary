@@ -55,11 +55,13 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
           <a href="/" className="flex items-center">
             <img
               src="/IMG-20250309-WA0003.jpg"
-              alt="School Name Logo"
+              alt="Rainbow Sr Secondary School Logo"
               className="h-12 mr-2"
             />
             <div>
-              <h1 className="text-lg font-bold text-blue-800">School Name</h1>
+              <h1 className="text-lg font-bold text-blue-800">
+                Rainbow Sr Secondary School
+              </h1>
               <p className="text-xs text-gray-600">Excellence in Education</p>
             </div>
           </a>
