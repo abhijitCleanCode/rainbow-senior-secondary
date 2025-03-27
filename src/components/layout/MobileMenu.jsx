@@ -106,11 +106,11 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             <div className="mt-4 space-y-2">
               <div className="flex items-center text-gray-700">
                 <Phone size={18} className="mr-2" />
-                <a href="tel:+911234567890">+91 1234567890</a>
+                <a href="tel:+911234567890">6901522862</a>
               </div>
               <div className="flex items-center text-gray-700">
-                <Mail size={18} className="mr-2" />
-                <a href="mailto:holycross@gmail.com">holycross@gmail.com</a>
+                <Phone size={18} className="mr-2" />
+                <a href="tel:+911234567890">8822031202</a>
               </div>
             </div>
           </div>
