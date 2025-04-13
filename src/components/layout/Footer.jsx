@@ -73,6 +73,14 @@ const Footer = () => {
                   Contact Us
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="https://rain-bow-school-beta.vercel.app"
+                  className="hover:text-blue-300"
+                >
+                  Login
+                </Link>
+              </li>
             </ul>
           </div>
 
