@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="https://rain-bow-school-beta.vercel.app"
+                  to="https://rain-bow-school-service-beta.vercel.app"
                   className="hover:text-blue-300"
                 >
                   Login
