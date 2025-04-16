@@ -95,7 +95,7 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             ))}
             <li>
               <Link
-                to="https://rain-bow-school-beta.vercel.app"
+                to="https://rain-bow-school-service-beta.vercel.app"
                 className="px-3 py-2 text-gray-800 hover:text-blue-800 font-medium relative group transition-colors duration-200"
               >
                 Login
